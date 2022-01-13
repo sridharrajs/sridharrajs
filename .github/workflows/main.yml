@@ -64,14 +64,14 @@ jobs:
       # ✒️ Recent posts
 
       # Display recent posts
-      - name: ✒️ Plugin Posts Dev.to
+      - name: ✒️ Plugin Posts sridhar.co
         uses: lowlighter/metrics@latest
         with:
           filename: profile/posts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_posts: yes
           plugin_posts_limit: 5
-          plugin_posts_source: dev.to
+          plugin_posts_source: sridhar.co
           base: ""
 
       # ======================================================================================
@@ -174,16 +174,3 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
-
-      # ======================================================================================
-      # ⏱️ Website performances
-
-      - name: ⏱️ PageSpeed plugin
-        uses: lowlighter/metrics@master
-        with:
-          filename: profile/pagespeed.svg
-          token: NOT_NEEDED
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
