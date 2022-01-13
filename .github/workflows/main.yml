@@ -1,0 +1,189 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  push: { branches: ["master", "main"]}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+
+      # ======================================================================================
+      # 🙋 Introduction
+
+      # Display introduction (user)
+      - name: 🙋 Introduction plugin
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/introduction.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "header, community, repositories, metadata"
+          plugin_introduction: yes
+          config_timezone: Asia/Kolkata
+          config_padding: 10%
+
+      # ======================================================================================
+      # 📰 Recent activity
+
+      # Display recent activity
+      - name: 📰 Personal Activities
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/activity.svg
+          base: "activity, community, metatdata"
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_padding: 10%
+
+      # ======================================================================================
+      # 📅 Isometric commit calendar
+
+      # Display isometric calendar (180 days)
+      - name: 📅  Calendar
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+
+      # ======================================================================================
+      # 🈷️ Most used languages
+
+      # Display most used languages
+      - name: 🈷️ Plugin Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_languages: yes
+          base: ""
+          config_padding: 10%
+          plugin_languages_details: bytes-size, percentage
+
+      # ======================================================================================
+      # ✒️ Recent posts
+
+      # Display recent posts
+      - name: ✒️ Plugin Posts Dev.to
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/posts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_posts: yes
+          plugin_posts_limit: 5
+          plugin_posts_source: dev.to
+          base: ""
+
+      # ======================================================================================
+      # 💡 Coding habits
+
+      # Display coding habits and recent activity
+      - name: 💡 Plugin Habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_habits: yes
+          plugin_habits_from: 220
+          plugin_habits_days: 15
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          base: ""
+          config_timezone: Asia/Kolkata
+
+
+      # ======================================================================================
+      # 🗨️ Stackoverflow plugin
+
+      # Display Stackoverflow metrics
+      - name: 🗨️  Stackoverflow plugin
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/stackoverflow.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 2975952
+          plugin_stackoverflow_sections: ""
+
+      # ======================================================================================
+      # 🎭 Comment reactions plugin
+
+      # Display comment reactions statistics
+      - name: 🎭 Reactions plugin
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+
+      # ======================================================================================
+      # 🎟️ Follow-up of issues and pull requests
+
+      # Display ratio of open/closed/merged issues and pull requests
+      - name: 🎟️ Follow-up plugin
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+
+
+      # ======================================================================================
+      # 👨‍💻 Lines of code changed
+
+      # Display number of line changed
+      - name: 👨‍💻 Lines plugin
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
+          plugin_lines: yes
+
+      # ======================================================================================
+      # 🏆 Achievements
+
+      # Achievements
+      - name: 🏆 Achievements
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements_ignored: octonaut
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: A
+          plugin_achievements: yes
+          # plugin_achievements_only: polyglot, stargazer, developer, contributor, octonaut
+
+      # ======================================================================================
+      # 📌 Starred topics
+
+      # Display starred topics
+      - name: 📌 Topics plugin (mastered)
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/mastered.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
+
+      # ======================================================================================
+      # ⏱️ Website performances
+
+      - name: ⏱️ PageSpeed plugin
+        uses: lowlighter/metrics@master
+        with:
+          filename: profile/pagespeed.svg
+          token: NOT_NEEDED
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
