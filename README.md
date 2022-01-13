@@ -23,16 +23,6 @@
   </tr>
   <tr style="border: 0px" >
     <td style="border: 0px" align="center">
-    <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/mastered.svg">
-      <img width="900" height="1" alt="">
-    </td>
-    <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/activity.svg">
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr style="border: 0px" >
-    <td style="border: 0px" align="center">
       <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/isocalendar.svg">
       <img width="900" height="1" alt="">
     </td>
