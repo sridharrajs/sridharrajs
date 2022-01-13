@@ -136,13 +136,11 @@ jobs:
       # ======================================================================================
       # 📌 Starred topics
 
-      # Display starred topics
-      - name: 📌 Topics plugin (mastered)
-        uses: lowlighter/metrics@master
+      # Display starred topics          
+      - name: "📌 Starred topics"
+        uses: lowlighter/metrics@latest
         with:
-          filename: profile/mastered.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: mastered
+          plugin_topics_sort: stars    # Sort by most starred topics
+          plugin_topics_mode: icons    # Display icons instead of labels
+          plugin_topics_limit: 0       # Disable limitations
