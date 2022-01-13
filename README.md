@@ -3,51 +3,41 @@
 <table style="border: 0px">
   <tr style="border: 0px" >
     <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/introduction.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/introduction.svg">
       <img width="900" height="1" alt="">
     </td>
     <td align="center" style="border: 0px">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/activity.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/activity.svg">
       <img width="900" height="1" alt="">
     </td>
   </tr>
   <tr style="border: 0px" >
     <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/languages.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/languages.svg">
       <img width="900" height="1" alt="">
     </td>
     <td align="center" style="border: 0px">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/mastered.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/mained.svg">
       <img width="900" height="1" alt="">
     </td>
   </tr>
   <tr style="border: 0px" >
     <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/achievements.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/achievements.svg">
       <img width="900" height="1" alt="">
     </td>
     <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/calendar.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/calendar.svg">
       <img width="900" height="1" alt="">
     </td>
   </tr>
   <tr style="border: 0px" >
     <td style="border: 0px" align="center">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/followup.svg">
+      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/followup.svg">
       <img width="900" height="1" alt="">
     </td>
     <td align="center" style="border: 0px">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/reactions.svg">
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr style="border: 0px" >
-    <td align="center" style="border: 0px">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/posts.svg">
-      <img width="900" height="1" alt="">
-    </td>
-    <td align="center" style="border: 0px">
-      <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/master/profile/stackoverflow.svg">
+        <img alt="" width="400" src="https://github.com/sridharrajs/sridharrajs/blob/main/profile/stackoverflow.svg">
       <img width="900" height="1" alt="">
     </td>
   </tr>
