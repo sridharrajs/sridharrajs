@@ -103,7 +103,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 2975952
+          plugin_stackoverflow_user: 978501
           plugin_stackoverflow_sections: ""
 
       # ======================================================================================
