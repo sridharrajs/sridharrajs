@@ -59,21 +59,7 @@ jobs:
           base: ""
           config_padding: 10%
           plugin_languages_details: bytes-size, percentage
-
-      # ======================================================================================
-      # ✒️ Recent posts
-
-      # Display recent posts
-      - name: ✒️ Plugin Posts sridhar.co
-        uses: lowlighter/metrics@latest
-        with:
-          filename: profile/posts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_posts: yes
-          plugin_posts_limit: 5
-          plugin_posts_source: sridhar.co
-          base: ""
-
+          
       # ======================================================================================
       # 💡 Coding habits
 
@@ -105,20 +91,6 @@ jobs:
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 978501
           plugin_stackoverflow_sections: ""
-
-      # ======================================================================================
-      # 🎭 Comment reactions plugin
-
-      # Display comment reactions statistics
-      - name: 🎭 Reactions plugin
-        uses: lowlighter/metrics@master
-        with:
-          filename: profile/reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_reactions: yes
-          plugin_reactions_limit: 100
-          plugin_reactions_details: percentage
 
       # ======================================================================================
       # 🎟️ Follow-up of issues and pull requests
