@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="210.32426266905654" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="210.32426266905654" y="0" width="144.3573613753566" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="354.6816240444131" y="0" width="37.132026857795516" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="391.8136509022086" y="0" width="32.73113669797832" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="424.54478760018696" y="0" width="17.865024047932156" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="442.4098116481191" y="0" width="8.686004463039167" height="8" fill="#F05138"/>
-                    <rect mask="url(#languages-bar)" x="451.09581611115834" y="0" width="4.964637643907003" height="8" fill="#c065db"/>
-                    <rect mask="url(#languages-bar)" x="456.0604537550653" y="0" width="3.939546244934711" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="209.76438004989816" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="209.76438004989816" y="0" width="143.97308246927145" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="353.73746251916964" y="0" width="37.033181502590274" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="390.7706440217599" y="0" width="32.64400650049211" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="423.41465052225203" y="0" width="17.817467402168358" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="441.2321179244204" y="0" width="8.66288234261866" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="449.89500026703905" y="0" width="5.153577941053049" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="455.0485782080921" y="0" width="4.951421791907956" height="8" fill="#c065db"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -41,7 +41,7 @@
                             </div>
                             <small>
                                 <div>597 kB</div>
-                                <div>45.72%</div>
+                                <div>45.6%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -53,7 +53,7 @@
                             </div>
                             <small>
                                 <div>105 kB</div>
-                                <div>8.07%</div>
+                                <div>8.05%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -65,19 +65,19 @@
                             </div>
                             <small>
                                 <div>50.7 kB</div>
-                                <div>3.88%</div>
+                                <div>3.87%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#c065db" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Emacs Lisp
+                                Python
                             </div>
                             <small>
-                                <div>14.1 kB</div>
-                                <div>1.08%</div>
+                                <div>14.6 kB</div>
+                                <div>1.12%</div>
                             </small>
                         </div>
                     </section>
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>410 kB</div>
-                                <div>31.38%</div>
+                                <div>31.3%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -103,7 +103,7 @@
                             </div>
                             <small>
                                 <div>93 kB</div>
-                                <div>7.12%</div>
+                                <div>7.1%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -115,19 +115,19 @@
                             </div>
                             <small>
                                 <div>24.6 kB</div>
-                                <div>1.89%</div>
+                                <div>1.88%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#c065db" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Python
+                                Emacs Lisp
                             </div>
                             <small>
-                                <div>11.2 kB</div>
-                                <div>0.86%</div>
+                                <div>14.1 kB</div>
+                                <div>1.08%</div>
                             </small>
                         </div>
                     </section>
